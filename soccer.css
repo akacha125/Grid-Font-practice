@@ -46,6 +46,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
+    background-color: black;
   }
   
   
@@ -151,6 +152,8 @@
 }
 
 .card{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
     height: 450px;
     width: 400px;
@@ -180,5 +183,6 @@
     box-shadow: 0 2px 14px antiquewhite;
 }
 
-
-
+.picture {
+    width: 100%;
+}
